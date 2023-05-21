@@ -83,7 +83,8 @@ curl --location --globoff 'BaseURL/refund/request' \
 --header 'ApiKey: <your-api-key>' \
 --header 'Content-Type: application/json' \
 --data '{
-    "transRef":"TST2313501591268"
+    "transRef":"TST2314101600392",
+    "amount": 1
 }'
 ```
 
